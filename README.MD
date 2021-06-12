@@ -5,6 +5,7 @@ RGB MASK to COCO
 ## 目标： 
   ### 探究Illumination对ImageSegmentation的影响，通过修改Loss，注意力模块，mask精度等方式进行测试  
 # Label：RGB MASK 背景-管道-阀门  
+# 模型评价标准：Mean IoU （0.755测试集）
 
 Background  | Pipe  | Valve
  ---- | ----- | ------  
